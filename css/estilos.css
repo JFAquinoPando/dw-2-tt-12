@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+
+p{
+    color: #767676;
+}
+
+#contenido p {
+    color: tomato;
+}
+

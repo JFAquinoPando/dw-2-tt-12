@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+}
+
+.video {
+	position: absolute;
+	top: -70px;
+	/* overflow: hidden; */
+    z-index: 10;
+}
+
+body {
+	overflow: hidden;
+    font-family: Arial;
+}
+
+header {
+	position: fixed;
+	z-index: 40;
+    width: 100%;
+}
+
+.logo {
+	width: 128px;
+	filter: brightness(1000%);
+	margin-top: 12px;
+	margin-left: 16px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.menu ul li {
+	display: inline-block;
+    padding: 12px;
+}
+
+.menu a {
+	color: white;
+    text-decoration: none;
+}
+
+.menu.left {
+	margin-left: 160px;
+}
+
+main {
+	color: white;
+	margin-top: 80px;
+	width: 100%;
+	text-align: center;
+	z-index: 40;
+	position: absolute;
+}
+
+main a {
+	color: white;
+	text-decoration: none;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+.contenedor {
+	margin-top: 300px;
+	margin-bottom: 40px;
+}
+
+.contenedor a {
+	border: solid 3px white;
+	display: inline-block;
+	padding: 10px 80px;
+	border-radius: 3px;
+	transition: all 3s cubic-bezier(1,0,0,1);
+}
+
+.contenedor a:hover {
+	color: black;
+    background-color: white;
+
+}
